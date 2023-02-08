@@ -6,9 +6,8 @@ function App() {
   return (
     <div className="App" id="outer-container">
       <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
-      <div id="page-wrap">
-        <Gallery />
-      </div>
+      <Gallery />
+      <div id="page-wrap"></div>
     </div>
   );
 }
